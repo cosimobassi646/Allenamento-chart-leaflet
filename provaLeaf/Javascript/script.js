@@ -34,7 +34,7 @@ function mostraNegozi(){
 let g = document.getElementById('grafico');
 
 function creaGrafico(){
-// Rimuovi le parentesi quadre intorno a modelli e prezzi
+
 new Chart(g, {
   type: 'bar',
   data: {
